@@ -179,7 +179,6 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background: #f4f4f4;
     padding: 40px 0;
 }
 
@@ -216,6 +215,7 @@ nav ul li a:hover {
 #contact p {
     text-align: center;
 }
+
 
 #contact a {
     color: #333;
@@ -482,7 +482,7 @@ footer {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1f1f1f;
+    background-color: #1a1a2e; /* Dark blue background color */
     color: #fff;
     margin: 0;
     padding: 0;
@@ -505,8 +505,9 @@ a:hover {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .logo-img {
@@ -540,9 +541,9 @@ section {
 }
 
 .project-section {
-    background-color: #2f2f2f;
+    background-color: rgba(47, 47, 47, 0.8);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
     padding: 30px;
     margin-bottom: 30px;
     text-align: left;
@@ -584,13 +585,75 @@ section {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+.contact_page{
+    color: black;
 }
 
 
-.heading{
-    color: black;
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Adjust icon size */
+.social-links i {
+    margin-right: 5px; /* Add spacing between icon and text */
+    font-size: 1.2em; /* Increase icon size */
+}
+
+
+.social-links {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+} 
+
+.social-links p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Adjust link color on hover */
+}
+
+#contact{
+    background-image: url('./images/contact-us-2993000_1920.jpg')no-repeat center center fixed;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.social-links a {
+     /* Set the color to white */
+    text-decoration: none; /* Remove underline */
+    margin: 0 5px; /* Add some margin between icons */
+    color: #fff;
 }

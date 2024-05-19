@@ -123,6 +123,9 @@ document.getElementById("nav-toggle").addEventListener("click", function() {
   
     header.appendChild(menuContainer);
   }
+
+
+  
 document.addEventListener('DOMContentLoaded', () => {
     const typingElement = document.querySelector('.typing-animation');
     const text = typingElement.textContent; // Get the text content of the element
